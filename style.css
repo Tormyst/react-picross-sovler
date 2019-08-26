@@ -1,0 +1,74 @@
+body{
+  font-family: Lato;
+}
+
+button {
+  font-size: 24px;
+}
+
+.fullPuzzle {
+  display: flex;
+  width: auto;
+}
+
+.leftPuzzle {
+  background: #555;
+  margin-top: auto;
+  padding-right: 10px;
+}
+
+.rightPuzzle {
+  background: #555;
+}
+
+.table {
+  padding-top: 10px
+}
+
+.puzzleRow {
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+}
+
+.topHint {
+  display: flex;
+}
+
+.hintCol {
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+.puzzleSquare {
+  background: #fff;
+}
+
+.hintSquare {
+  background: #ffd781;
+}
+
+.hintBlank {
+  background: #ffefcc;
+}
+
+.square {
+  padding: 2px;
+  height: 45px;
+  width: 45px;
+  border: 2px solid black;
+  margin-top: -2px;
+  margin-right: -2px;
+}
+
+.puzzleFill {
+  background: #555;
+  height: 100%;
+  width: 100%;
+}
+
+.square:focus {
+  outline: none;
+}
